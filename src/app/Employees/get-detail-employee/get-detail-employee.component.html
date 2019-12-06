@@ -1,0 +1,41 @@
+<div class="container">
+
+    
+    
+    <h2>Developer's Detail Info </h2>
+  <br>
+  <table class="table"  >
+    <thead>
+      <tr>
+        <th>UserName</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Address</th>
+        <th>Age</th>
+        <th>phoneNumber</th>
+        <th>Profile</th>
+        </tr>
+    </thead>
+    <tbody  >
+
+
+<tr >
+        <td>{{employeeData.userName}}</td> 
+        <td>{{employeeData.firstName}}</td>
+        <td>{{employeeData.lastName}}</td>
+        <td>{{employeeData.address}}</td>
+        <td>{{employeeData.age}}</td>
+        <td>{{employeeData.phoneNumber}}</td>
+        <td>Developer</td>
+        </tr>
+      </tbody>
+  </table> 
+    
+   <a class="btn btn-info" routerLink="/developer">Go To All Developer</a>&nbsp;
+   <a class="btn btn-warning" routerLink="/developer/updateemployee/{{employeeData.id}}">Update Developer's Data</a>&nbsp;
+   <a class="btn btn-danger" (click)="deleteThisEmployee()">Delete Developer's Data</a> 
+  
+  
+</div>
+ 
+

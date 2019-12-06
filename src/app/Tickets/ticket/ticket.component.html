@@ -1,0 +1,36 @@
+<div class="container">
+    
+    <div class="col-md-4 login-container">
+        <form  [formGroup]="myForm" (ngSubmit)="ticketInfo(myForm.value)">
+        <div class="form-group">
+          
+          <label for="ticketName"><b>TicketName</b></label><br>
+      <input type="text" placeholder="Enter TicketName" formControlName="ticketName" value="" required  >
+        </div>
+        <div class="form-group">
+          
+          <label for="ticketDescription"><b>TicketDescription</b></label><br>
+          <textarea name="ticketDescription" formControlName="ticketDescription" id="ticketDescription" cols="35" rows="10">
+            </textarea>
+        </div>
+        <br />
+
+        <label for="userRole">Select Role</label>
+        <select class='select-option' formControlName="userRole" (change)="modo($event.target.value)">
+            <option [ngValue]="null" disabled>Choose your Role</option>
+          <option class='option' *ngFor='let role of userRole' [value]="role.name">{{role.name}}</option>
+</select>
+<br>
+<label for="userInfo">Select User</label>
+<select formControlName="userInfo" id="userInfo">
+  <option [ngValue]="null" disabled>Choose your Name</option>
+  <option *ngFor="let user of userInfo" [ngValue]="user.userName">
+    {{user.userName}}
+  </option>
+</select>
+<br><br>
+
+              <input type="submit" value="submit">
+            </form>
+        
+    </div>

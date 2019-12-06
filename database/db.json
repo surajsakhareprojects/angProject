@@ -1,0 +1,436 @@
+{
+  "tickets": [
+    {
+      "ticketName": "error find",
+      "ticketDescription": "error find by tester",
+      "userRole": "Tester",
+      "userInfo": "Krishna001",
+      "id": 10000
+    },
+    {
+      "ticketName": "adding new features",
+      "ticketDescription": "need to add more features in current project",
+      "userRole": "Developer",
+      "userInfo": "Pranu005",
+      "id": 10001
+    },
+    {
+      "ticketName": "find out error",
+      "ticketDescription": "need to find out error in current project",
+      "userRole": "Tester",
+      "userInfo": "Krishna001",
+      "id": 10002
+    },
+    {
+      "ticketName": "find error",
+      "ticketDescription": "find error from current project",
+      "userRole": "Tester",
+      "userInfo": "kavya",
+      "id": 10003
+    },
+    {
+      "ticketName": "develpe new project",
+      "ticketDescription": "develope new project",
+      "userRole": "Developer",
+      "userInfo": "sandhya",
+      "id": 10004
+    },
+    {
+      "ticketName": "",
+      "ticketDescription": "",
+      "userRole": "",
+      "userInfo": "",
+      "id": 10005
+    }
+  ],
+  "users": [
+    {
+      "userName": "Suraj007",
+      "firstName": "Suraj",
+      "lastName": "sakhare",
+      "address": "AmT",
+      "age": "28",
+      "phoneNumber": "998877665544",
+      "password": "1111",
+      "id": 51
+    },
+    {
+      "userName": "Suraj007",
+      "firstName": "Suraj",
+      "lastName": "sakhare",
+      "address": "AmT",
+      "age": "28",
+      "phoneNumber": "998877665544",
+      "password": "1112",
+      "id": 52
+    },
+    {
+      "userName": "as",
+      "firstName": "xc",
+      "lastName": "vv",
+      "address": "",
+      "age": "",
+      "phoneNumber": "",
+      "password": "1113",
+      "id": 54
+    },
+    {
+      "userName": "shweta",
+      "firstName": "Shweta",
+      "lastName": "Ingole",
+      "address": "Karve Nagar",
+      "age": "35",
+      "phoneNumber": "9899876645",
+      "password": "1114",
+      "id": 55
+    },
+    {
+      "userName": "akshi",
+      "firstName": "Akshay",
+      "lastName": "Ingole",
+      "address": "Karve Nagar",
+      "age": "30",
+      "phoneNumber": "89666454",
+      "password": "1115",
+      "id": 56
+    },
+    {
+      "userName": "panu",
+      "password": "1116",
+      "firstName": "Pranita",
+      "lastName": "Ghotekar",
+      "address": "Karve Nagar",
+      "age": "34",
+      "phoneNumber": "66779887755",
+      "id": 57
+    },
+    {
+      "userName": "renu002",
+      "password": "1117",
+      "firstName": "Renu",
+      "lastName": "Ghotekar",
+      "address": "Amt",
+      "age": "28",
+      "phoneNumber": "22334455",
+      "id": 58
+    },
+    {
+      "userName": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "age": "",
+      "phoneNumber": "",
+      "profile": "",
+      "id": 59
+    },
+    {
+      "userName": "",
+      "password": "1122",
+      "firstName": "pranita",
+      "lastName": "loone",
+      "address": "pune",
+      "age": "222",
+      "phoneNumber": "12121313",
+      "profile": "",
+      "id": 60
+    },
+    {
+      "userName": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "age": "",
+      "phoneNumber": "",
+      "profile": "",
+      "id": 61
+    },
+    {
+      "userName": "",
+      "password": "7676",
+      "firstName": "jhgfg",
+      "lastName": "hgdhgf",
+      "address": "hhtr",
+      "age": "987",
+      "phoneNumber": "54323",
+      "profile": "",
+      "id": 62
+    },
+    {
+      "userName": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "age": "",
+      "phoneNumber": "",
+      "profile": "",
+      "id": 63
+    },
+    {
+      "userName": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "age": "",
+      "phoneNumber": "",
+      "profiles": "1",
+      "id": 64
+    },
+    {
+      "userName": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "age": "",
+      "phoneNumber": "",
+      "profiles": "2",
+      "id": 65
+    },
+    {
+      "userName": "kau",
+      "password": "11",
+      "firstName": "pranita",
+      "lastName": "",
+      "address": "asadad",
+      "age": "",
+      "phoneNumber": "",
+      "profiles": "2",
+      "id": 66
+    },
+    {
+      "userName": "panu",
+      "password": "1111",
+      "firstName": "pranita",
+      "lastName": "Ingole",
+      "address": "ashaua",
+      "age": "11",
+      "phoneNumber": "1235456",
+      "profiles": "Manager",
+      "id": 67
+    },
+    {
+      "userName": "kau",
+      "password": "12",
+      "firstName": "kavya",
+      "lastName": "ghotekar",
+      "address": "asdasdsad",
+      "age": "12",
+      "phoneNumber": "12121212",
+      "profiles": "Employees",
+      "id": 68
+    },
+    {
+      "userName": "renu",
+      "password": "9999",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "age": "",
+      "phoneNumber": "",
+      "profiles": "1",
+      "id": 69
+    }
+  ],
+  "posts": [
+    {
+      "id": 3,
+      "title": "jquery",
+      "author": "typicode"
+    }
+  ],
+  "ceo": [
+    {
+      "userName": "Krishna001",
+      "firstName": "Krishna",
+      "lastName": "Ghotekar",
+      "address": "AmT",
+      "age": "33",
+      "phoneNumber": "92986544323",
+      "id": 11
+    },
+    {
+      "userName": "Pranu005",
+      "firstName": "Pranita",
+      "lastName": "Ghotekar",
+      "address": "Jakarta",
+      "age": "33",
+      "phoneNumber": "7765443896434",
+      "subjects": "",
+      "id": 12
+    },
+    {
+      "userName": "sss",
+      "firstName": "sdc",
+      "lastName": "adc",
+      "address": "sdv",
+      "age": "12",
+      "phoneNumber": "12212222222",
+      "id": 13
+    },
+    {
+      "userName": "aaaa",
+      "firstName": "ssss",
+      "lastName": "sssdd",
+      "address": "sdfsdfsd",
+      "age": "11",
+      "phoneNumber": "112121212",
+      "subjects": "",
+      "id": 14
+    },
+    {
+      "userName": "xxx",
+      "firstName": "xxx",
+      "lastName": "cccc",
+      "address": "xxxx",
+      "age": "121212",
+      "phoneNumber": "121212121212",
+      "id": 15
+    }
+  ],
+  "manager": [
+    {
+      "userName": "Pranu005",
+      "firstName": "Pranita",
+      "lastName": "Ghotekar",
+      "address": "Jakarta",
+      "age": "33",
+      "phoneNumber": "7765443896434",
+      "subjects": "",
+      "id": 12
+    },
+    {
+      "userName": "kavya00011",
+      "firstName": "Kavya",
+      "lastName": "Ghotekar",
+      "address": "pune",
+      "age": "4",
+      "phoneNumber": "121212122",
+      "subjects": "",
+      "id": 13
+    },
+    {
+      "userName": "asasasas",
+      "firstName": "asasasas",
+      "lastName": "sdadada",
+      "address": "zxzczcsc",
+      "age": "12",
+      "phoneNumber": "1212121221",
+      "subjects": "",
+      "id": 15
+    },
+    {
+      "userName": "panu",
+      "password": "panu",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "age": "",
+      "phoneNumber": "",
+      "profiles": "0",
+      "id": 16
+    }
+  ],
+  "developer": [
+    {
+      "userName": "Krishna001",
+      "firstName": "Krishna",
+      "lastName": "Ghotekar",
+      "address": "AmT",
+      "age": "33",
+      "phoneNumber": "92986544323",
+      "id": 11
+    },
+    {
+      "userName": "Pranu005",
+      "firstName": "Pranita",
+      "lastName": "Ghotekar",
+      "address": "Jakarta",
+      "age": "33",
+      "phoneNumber": "7765443896434",
+      "subjects": "",
+      "id": 12
+    },
+    {
+      "userName": "asdfrfgfv",
+      "firstName": "wefvfv",
+      "lastName": "qerffv",
+      "address": "wfevfv",
+      "age": "23",
+      "phoneNumber": "454536365",
+      "id": 14
+    },
+    {
+      "userName": "rahul",
+      "firstName": "Rahul",
+      "lastName": "Bagade",
+      "address": "110 golden sands 9",
+      "age": "29",
+      "phoneNumber": "7656566",
+      "id": 15
+    },
+    {
+      "userName": "sandhya",
+      "firstName": "Sandya",
+      "lastName": "Deshmukh",
+      "address": "110 golden sands 9",
+      "age": "44",
+      "phoneNumber": "234344343",
+      "id": 16
+    }
+  ],
+  "tester": [
+    {
+      "userName": "Krishna001",
+      "firstName": "Krishna",
+      "lastName": "Ghotekar",
+      "address": "AmT",
+      "age": "33",
+      "phoneNumber": "92986544323",
+      "id": 11
+    },
+    {
+      "userName": "Pranu005",
+      "firstName": "Pranita",
+      "lastName": "Ghotekar",
+      "address": "Jakarta",
+      "age": "33",
+      "phoneNumber": "7765443896434",
+      "subjects": "",
+      "id": 12
+    },
+    {
+      "userName": "asdfrfgfv",
+      "firstName": "wefvfv",
+      "lastName": "qerffv",
+      "address": "wfevfv",
+      "age": "23",
+      "phoneNumber": "454536365",
+      "id": 14
+    },
+    {
+      "userName": "kavya",
+      "firstName": "Kavya",
+      "lastName": "Ghotekar",
+      "address": "110 golden sands9",
+      "age": "20",
+      "phoneNumber": "9987677",
+      "subjects": "",
+      "id": 15
+    },
+    {
+      "userName": "sanjay",
+      "firstName": "Sanjay",
+      "lastName": "Raut",
+      "address": "110 golden sands 8",
+      "age": "30",
+      "phoneNumber": "665443",
+      "subjects": "",
+      "id": 16
+    }
+  ]
+}

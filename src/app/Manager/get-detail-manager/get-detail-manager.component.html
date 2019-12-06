@@ -1,0 +1,41 @@
+<div class="container">
+
+    
+    
+    <h2>Manager's Detail Info</h2>
+    <br>
+  <table class="table"  >
+    <thead>
+      <tr>
+        <th>UserName</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Address</th>
+        <th>Age</th>
+        <th>phoneNumber</th>
+        <th>Profile</th>
+        </tr>
+    </thead>
+    <tbody>
+
+
+<tr >
+        <td>{{managerData.userName}}</td> 
+        <td>{{managerData.firstName}}</td>
+        <td>{{managerData.lastName}}</td>
+        <td>{{managerData.address}}</td>
+        <td>{{managerData.age}}</td>
+        <td>{{managerData.phoneNumber}}</td>
+        <td>Manager</td>
+        </tr>
+      </tbody>
+  </table> 
+    
+   <a class="btn btn-info" routerLink="/manager">Go To All Manager</a>&nbsp;
+   <a class="btn btn-warning" routerLink="/manager/updatemanager/{{managerData.id}}">Update Manager Data</a>&nbsp;
+   <a class="btn btn-danger" (click)="deleteThisManager()">Delete Manager Data</a> 
+  
+  
+</div>
+ 
+

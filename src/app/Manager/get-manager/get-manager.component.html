@@ -1,0 +1,26 @@
+
+
+
+<div class="container">
+    <h2>Manager's Info</h2>
+    <br>
+    <table class="table"  >
+      <thead>
+        <tr>
+          <th>UserName</th>
+          <th>FirstName</th>
+          <th>phoneNumber</th>
+          <th>ViewDetails</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor = "let user of allUsers">
+          <td>{{user.userName}}</td>
+          <td>{{user.firstName}}</td>
+          <td>{{user.phoneNumber}}</td>
+          <td><a routerLink="getdetailmanager/{{user.id}}" class="btn btn-warning">ViewDetails</a></td>
+        </tr>
+        </tbody>
+    </table>
+    <a class="btn btn-primary" routerLink="createmanager">NewManager</a>
+    </div>

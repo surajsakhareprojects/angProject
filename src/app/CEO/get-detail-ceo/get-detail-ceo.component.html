@@ -1,0 +1,39 @@
+<div class="container">
+
+    
+    
+    <h2>CEO's Detail Data</h2>
+  <br>
+  <table class="table"  >
+    <thead>
+      <tr>
+        <th>UserName</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Address</th>
+        <th>Age</th>
+        <th>phoneNumber</th>
+        </tr>
+    </thead>
+    <tbody  >
+
+
+<tr >
+        <td>{{ceoData.userName}}</td> 
+        <td>{{ceoData.firstName}}</td>
+        <td>{{ceoData.lastName}}</td>
+        <td>{{ceoData.address}}</td>
+        <td>{{ceoData.age}}</td>
+        <td>{{ceoData.phoneNumber}}</td>
+        </tr>
+      </tbody>
+  </table> 
+    
+   <a class="btn btn-info" routerLink="/ceo">Go To All CEO</a>&nbsp;
+   <a class="btn btn-warning" routerLink="/ceo/updateceo/{{ceoData.id}}">Update CEO Data</a>&nbsp;
+   <a class="btn btn-danger" (click)="deleteThisCEO()">Delete CEO Data</a> 
+  
+  
+</div>
+ 
+

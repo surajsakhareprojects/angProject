@@ -1,0 +1,27 @@
+<div class="container" style="margin-left: 10%;">
+    <div class=" col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8" > 
+    <form [formGroup]="ceoForm" (ngSubmit)="updatedPost(ceoForm.value)">
+    
+        <label for="userName"><b>UserName</b></label><br>
+        <input type="text" placeholder="Enter FirstName" formControlName="userName" value="" required>
+        <br><br>
+    <label for="firstName"><b>FirstName</b></label><br>
+    <input type="text" placeholder="Enter FirstName" formControlName="firstName" value="" required>
+    <br><br>
+    <label for="lastName"><b>LastName</b></label><br>
+    <input type="text" placeholder="Enter LastName" formControlName="lastName" value="" required>
+    <br><br>
+    <label for="address"><b>Address</b></label><br>
+    <input type="text" placeholder="Enter address" formControlName="address" value="" required>
+    <br><br>
+    <label for="age"><b>Age</b></label><br>
+    <input type="text" placeholder="Enter age" formControlName="age" value="" required>
+    <br><br>
+    <label for="phoneNumber"><b>PhoneNumber</b></label><br>
+    <input type="text" placeholder="Enter phoneNumber" formControlName="phoneNumber" value="" required>
+    <br><br>
+    <button >Update</button>
+    </form>
+    </div>
+    </div>
+    

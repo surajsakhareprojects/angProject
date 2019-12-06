@@ -1,0 +1,54 @@
+<a [routerLink]="['/newdummy']" [queryParams]="{userName:'Pranita'}">
+    Passing Single Parameter</a>
+<br><br>
+
+<a [routerLink]="['/newdummy']" [queryParams]="{userName:'Pranita',userId:101,userAddress:'wardha'}">
+    Passing Multiple Parameter</a>
+
+    <br><br>
+    <a routerLink="/newdummy/:{{empId}}">routerLink</a><br><br>
+
+    <button (click)="gotoUserdetails()">Single Parameter</button><br><br>
+
+
+
+    <h3>Nested Form</h3>
+<form [formGroup]="myForm" (ngSubmit)="myFormGroup(myForm.value)">
+    <h4>Email</h4>
+
+    <input formControlName="email"><br>
+  
+      <h4>Cell Phone</h4>
+  
+      <div formGroupName="currentAddress">
+        <input formControlName="buildingNo">
+        <input formControlName="landmark">
+        <input formControlName="city">
+        <input formControlName="district">
+      </div>
+  
+      <h4>Home Phone</h4>
+  
+      <div formGroupName="nativeAddress">
+        <input formControlName="buildingNo">
+        <input formControlName="landmark">
+        <input formControlName="city">
+        <input formControlName="district">
+      </div>
+      <button>Submit</button>
+      <br><br>
+      {{myForm.value | json}}
+  </form>
+
+  <br><br><br>
+ <form [formGroup]="myForm1" (ngSubmit)="myFormGroup1(myForm1.value)">
+
+  <h4>Full Name / Address</h4>
+    <div formControlName = "Name">
+    <input formControlName="Fname">
+    <input formControlName="Mname">
+    <input formControlName="Lname" >
+    <input formControlName="cityName">
+  </div>
+    <button>Submit</button>
+  </form>

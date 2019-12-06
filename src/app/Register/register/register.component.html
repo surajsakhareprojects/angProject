@@ -1,0 +1,48 @@
+
+ <div class="container" style="margin-left: 10%;">
+    <div class=" col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8" >
+      <h2>Registration Form</h2>
+  
+      <form  [formGroup]="myForm" (ngSubmit)="myregForm(myForm.value)">
+        <p>Please fill this form to create an account.</p>
+        <hr>
+        <label for="userName"><b>UserName</b></label><br>
+      <input type="text" placeholder="Enter UserName" formControlName="userName" value="" required  >
+      <br><br>
+        <label for="password"><b>Password</b></label><br>
+      <input type="text" placeholder="Enter Password" formControlName="password" value="" required  >
+      <br><br>
+  
+        <label for="firstName"><b>FirstName</b></label><br>
+      <input type="text" placeholder="Enter FirstName" formControlName="firstName" value="" required  >
+      <br><br>
+          
+      <label for="lastName"><b>LastName</b></label><br>
+      <input type="text" placeholder="Enter LastName" formControlName="lastName" id="lastname"
+       value="" required><br><br>
+  
+      <label for="address"><b>Address</b></label><br>
+      <input type="text" placeholder="Enter Address" formControlName="address" id="address"
+       value="" required><br><br>
+  
+      <label for="age"><b>Age</b></label><br>
+      <input type="text" placeholder="Enter Age" formControlName="age" id="age"
+       value="" required><br><br>
+  
+      <label for="phoneNumber"><b>PhoneNumber</b></label><br>
+      <input type="text" placeholder="Enter PhoneNumber" formControlName="phoneNumber" 
+      id="phonenumber" value="" required><br><br>
+
+      <label for="profiles">Profile</label>
+  <select formControlName="profiles" id="profiles">
+    <option *ngFor="let profile of profiles; let i = index" [value]="profiles[i].id">
+      {{profiles[i].name}}
+    </option>
+  </select>
+  <br><br>
+  
+      <button >Register</button>
+      </form>
+     
+    </div> 
+    

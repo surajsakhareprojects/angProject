@@ -1,0 +1,41 @@
+<div class="container">
+
+    
+    
+    <h2>Tester's Detail Info</h2>
+  <br>
+  <table class="table"  >
+    <thead>
+      <tr>
+        <th>UserName</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Address</th>
+        <th>Age</th>
+        <th>phoneNumber</th>
+        <th>Profile</th>
+        </tr>
+    </thead>
+    <tbody>
+
+
+<tr >
+        <td>{{testerData.userName}}</td> 
+        <td>{{testerData.firstName}}</td>
+        <td>{{testerData.lastName}}</td>
+        <td>{{testerData.address}}</td>
+        <td>{{testerData.age}}</td>
+        <td>{{testerData.phoneNumber}}</td>
+        <td>Tester</td>
+        </tr>
+      </tbody>
+  </table> 
+    
+   <a class="btn btn-info" routerLink="/tester">Go To All Tester</a>&nbsp;
+   <a class="btn btn-warning" routerLink="/tester/updatetester/{{testerData.id}}">Update Tester Data</a>&nbsp;
+   <a class="btn btn-danger" (click)="deleteThisTester()">Delete Tester Data</a> 
+  
+  
+</div>
+ 
+

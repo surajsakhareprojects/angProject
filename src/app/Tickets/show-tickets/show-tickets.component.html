@@ -1,0 +1,47 @@
+
+
+
+
+
+<div class="container">
+    <h2>Ticket Info</h2>
+    <br><br>
+    <a class="btn btn-primary" routerLink="/ticket">CreateTicket</a>
+    <br><br><br>
+    <table class="table"  >
+      <thead>
+        <tr>
+          <th>TicketName</th>
+          <th>UserRole</th>
+          <th>TicketDescription</th>
+          <th>AssignTo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor = "let ticket of allTickets">
+          <td>{{ticket.ticketName}}</td>
+          <td>{{ticket.userRole}}</td>
+          <td>{{ticket.ticketDescription}}</td>
+          <td>{{ticket.userInfo}} </td>
+        </tr>
+        </tbody>
+    </table>
+    
+    
+
+    </div>
+
+    <!-- <label for="profile">Profile</label>
+    <select   name="profile" id="profile" [ngModel] required>
+      <option *ngFor="let profile of profiles;" [ngValue]="profile.id">
+        {{profile.name}}
+      </option>
+    </select>
+
+    <select class='select-option' 
+    (ngModelChange)='onOptionsSelected($event)'>
+    <option  class="profile" *ngFor="let profile of profiles;"
+     [value]="profile.id">
+      {{profile.name}}
+    </option>
+</select> -->
